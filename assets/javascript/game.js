@@ -39,7 +39,7 @@ document.onkeyup = function (event) {
             userGuesses = [];
             computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
         } else {
-            userGuesses.push(userGuess);
+            userGuesses.push(" "+ userGuess);
             guessesLeft--;
         };
 
